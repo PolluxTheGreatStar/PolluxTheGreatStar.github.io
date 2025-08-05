@@ -358,3 +358,51 @@ a:hover {
         font-size: 1.2rem;
     }
 }
+
+/* about.html */
+
+/* Gaya untuk Halaman Tentang (About Page) */
+.about {
+    padding: 150px 0 100px 0; /* Padding atas disesuaikan untuk header tetap */
+    min-height: 100vh;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-image {
+    flex-shrink: 0;
+    text-align: center;
+    animation: fadeInSlideRight 1s ease-out forwards;
+}
+
+.about-image img {
+    max-width: 400px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    animation: fadeInSlideLeft 1s ease-out forwards;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Responsif untuk Halaman Tentang */
+@media (max-width: 768px) {
+    .about .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-bottom: 30px;
+    }
+}
