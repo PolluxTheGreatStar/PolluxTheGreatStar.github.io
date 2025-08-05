@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Freelancer Digital</title>
+  <link rel="icon" type="image/x-icon" sizes="64x64 48x48 32x32 16x16" href="file:///C:/Users/willy/Downloads/HTML/favicon.ico">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f8f8f8;
+      padding: 10px;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      margin: 0 10px;
+      display: inline-block;
+      padding: 10px 5px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+    }
+
+    .project, .testimonial {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fdfdfd;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .contact-form button {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+
+      .contact-form button {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Willyam – Freelancer Digital Industri</h1>
+    <p>Spesialis strategi digital, konten kreatif, dan kampanye pemasaran</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#proyek">Proyek</a>
+    <a href="#testimoni">Testimoni</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah freelancer di bidang digital industri dengan fokus pada pemasaran digital, pembuatan konten, dan manajemen proyek kreatif. Berpengalaman membantu UMKM, startup, hingga brand besar untuk tumbuh melalui pendekatan yang strategis dan berbasis data.</p>
+  </section>
+
+  <section id="proyek">
+    <h2>Proyek Terbaik</h2>
+    <div class="project">
+      <h3>Kampanye Digital Arinda Food</h3>
+      <p>Merancang strategi kampanye Instagram dan Meta Ads, menghasilkan lebih dari 50% peningkatan interaksi dan penjualan dalam 3 bulan.</p>
+    </div>
+    <div class="project">
+      <h3>Website UMKM Tangerang</h3>
+      <p>Membuat landing page untuk bisnis lokal menggunakan HTML dan tools no-code, serta optimasi SEO dasar.</p>
+    </div>
+  </section>
+
+  <section id="testimoni">
+    <h2>Testimoni</h2>
+    <div class="testimonial">
+      <p>"Bekerja dengan Willyam sangat menyenangkan. Dia komunikatif, cepat tanggap, dan memberikan hasil di atas ekspektasi!"</p>
+      <p><strong>– Sinta, Owner Arinda Food</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>"Solusi yang ditawarkan sangat kreatif dan relevan dengan target market kami."</p>
+      <p><strong>– Rizky, Digital Manager Startup Edukasi</strong></p>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak Saya</h2>
+    <form class="contact-form" onsubmit="alert('Terima kasih! Pesan Anda telah dikirim.'); return false;">
+      <input type="text" placeholder="Nama Anda" required />
+      <input type="email" placeholder="Email Anda" required />
+      <textarea rows="4" placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Willyam | Freelancer Digital Industri
+  </footer>
+</body>
+</html>
