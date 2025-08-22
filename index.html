@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crealiva | Bisnis & Portofolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Crealiva | Profile & Portofolio</title>
+    <link rel="stylesheet" href="C:\Users\willy\Downloads\HTML\css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
 </head>
 <body>
 
@@ -16,9 +17,10 @@
             <h1 class="logo"><a href="index.html">Crealiva</a></h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="pageabout.html">Tentang</a></li>
+					
                     <li><a href="index.html#portfolio">Portofolio</a></li>
-                    <li><a href="index.html#contact">Kontak</a></li>
+                    <li><a href="index.html#contact">Kontak Kami</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,54 +29,162 @@
     <section id="hero" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2 class="hero-title">Halo, saya [Crealiva]</h2>
-                <p class="hero-subtitle">Seorang [Profesi Anda], spesialis di bidang [Bidang Keahlian].</p>
+                <h2 class="hero-title">Selamat Datang di Crealiva</h2>
+                <p class="hero-subtitle">Tempat terbaik untuk bangun dan berkembang di era digital. Kami siap menjadi solusi terbaik untuk seluruh masalah digital kamu.</p>
                 <a href="index.html#portfolio" class="cta-button">Lihat Portofolio</a>
             </div>
             <div class="hero-image">
-                <img src="https://via.placeholder.com/400" alt="Foto profil Anda">
+                <img src="C:\Users\willy\Downloads\HTML\Logo\LogoCrealiva2.png" alt="Foto profil Anda">
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="section-title">Portofolio</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400" alt="Proyek 1">
-                    <div class="item-overlay">
-                        <h3>Nama Proyek 1</h3>
-                        <p>Deskripsi singkat tentang proyek.</p>
-                        <a href="#">Lihat Detail</a>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400" alt="Proyek 2">
-                    <div class="item-overlay">
-                        <h3>Nama Proyek 2</h3>
-                        <p>Deskripsi singkat tentang proyek.</p>
-                        <a href="#">Lihat Detail</a>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400" alt="Proyek 3">
-                    <div class="item-overlay">
-                        <h3>Nama Proyek 3</h3>
-                        <p>Deskripsi singkat tentang proyek.</p>
-                        <a href="#">Lihat Detail</a>
-                    </div>
+<section class="full-width-images">
+    <div class="full-width-image-container">
+        <img src="C:\Users\willy\Downloads\HTML\Section Foto\giftcardcrealiva.jpg" alt="Gambar Penuh Lebar 1">
+        <img src="C:\Users\willy\Downloads\HTML\Section Foto\totbagcrealiva.jpg" alt="Gambar Penuh Lebar 2">
+        <img src="C:\Users\willy\Downloads\HTML\Section Foto\phonecrealiva.jpg" alt="Gambar Penuh Lebar 3">
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-title">Portofolio</h2>
+    </div>
+
+    <div class="container">
+        <h3 class="category-title">Latest Projects</h3>
+        <div class="portfolio-grid" id="latest-projects">
+            <div class="portfolio-item">
+                <img src="C:\Users\willy\Downloads\HTML\Portofolio\instapost.jpg" alt="Proyek 1" alt="Proyek 1">
+                <div class="item-overlay">
+                    <h3>Instagram Feeds Design Arinda Food</h3>
+                    <p>Membuat.</p>
+                    <a href="#" class="view-detail-btn" data-project="1">Lihat Detail</a>
                 </div>
             </div>
+            <div class="portfolio-item">
+                <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 2">
+                <div class="item-overlay">
+                    <h3>Website Layout Design</h3>
+                    <p>Deskripsi singkat tentang proyek.</p>
+                    <a href="#" class="view-detail-btn" data-project="2">Lihat Detail</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400" alt="Proyek 3">
+                <div class="item-overlay">
+                    <h3>Arinda Food Advertise</h3>
+                    <p>Deskripsi singkat tentang proyek.</p>
+                    <a href="#" class="view-detail-btn" data-project="3">Lihat Detail</a>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+
+<section id="360-photo">
+        <a-scene embedded>
+		<a-sky src="https://github.com/PolluxTheGreatStar/PolluxTheGreatStar.github.io/blob/main/panorender.jpg?raw=true"></a-sky>
+            </a-scene>
+</section>
+
+    <div class="container">
+        <h3 class="category-title">All Projects</h3>
+<div class="portfolio-grid" id="all-projects">
+    <div class="portfolio-item hidden">
+        <div class="portfolio-image">
+            <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 4">
+            <div class="portfolio-overlay">
+                <h4>Nama Proyek 4</h4>
+                <p>Deskripsi singkat tentang proyek.</p>
+                <a href="#" class="view-detail-btn" data-project="4">Lihat Detail</a>
+            </div>
         </div>
-    </section>
+    </div>
+    <div class="portfolio-item hidden">
+        <div class="portfolio-image">
+            <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 5">
+            <div class="portfolio-overlay">
+                <h4>Nama Proyek 5</h4>
+                <p>Deskripsi singkat tentang proyek.</p>
+                <a href="#" class="view-detail-btn" data-project="5">Lihat Detail</a>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="portfolio-item hidden">
+        <div class="portfolio-image">
+            <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 5">
+            <div class="portfolio-overlay">
+                <h4>Nama Proyek 5</h4>
+                <p>Deskripsi singkat tentang proyek.</p>
+                <a href="#" class="view-detail-btn" data-project="6">Lihat Detail</a>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="portfolio-item hidden">
+        <div class="portfolio-image">
+            <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 7">
+            <div class="portfolio-overlay">
+                <h4>Nama Proyek 5</h4>
+                <p>Deskripsi singkat tentang proyek.</p>
+                <a href="#" class="view-detail-btn" data-project="7">Lihat Detail</a>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="portfolio-item hidden">
+        <div class="portfolio-image">
+            <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 5">
+            <div class="portfolio-overlay">
+                <h4>Nama Proyek 5</h4>
+                <p>Deskripsi singkat tentang proyek.</p>
+                <a href="#" class="view-detail-btn" data-project="5">Lihat Detail</a>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="portfolio-item hidden">
+        <div class="portfolio-image">
+            <img src="C:\Users\willy\Downloads\HTML\Portofolio\WebAF.jpg" alt="Proyek 5">
+            <div class="portfolio-overlay">
+                <h4>Nama Proyek 5</h4>
+                <p>Deskripsi singkat tentang proyek.</p>
+                <a href="#" class="view-detail-btn" data-project="5">Lihat Detail</a>
+            </div>
+        </div>
+    </div>
+	
+    </div>
+
+        
+        <div class="text-center">
+    <button id="see-more-btn" class="text-link">See More</button>
+</div>
+    </div>
+</section>
+
+<div id="project-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title" class="section-title"></h2>
+        <p id="modal-description" class="project-description"></p>
+        <div id="modal-gallery" class="project-gallery-grid">
+            </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Hubungi Saya</h2>
             <p>Tertarik bekerja sama? Silakan hubungi saya melalui form di bawah ini.</p>
             <form action="#" class="contact-form">
-                <input type="text" placeholder="Crealiva" required>
+                <input type="text" placeholder="Nama Anda" required>
                 <input type="email" placeholder="Email Anda" required>
                 <textarea placeholder="Pesan Anda" rows="6" required></textarea>
                 <button type="submit" class="cta-button">Kirim Pesan</button>
@@ -82,12 +192,34 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Crealiva. Hak Cipta Dilindungi.</p>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Nama Brand Anda</h3>
+                <p>&copy; 2025. Hak Cipta Dilindungi.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Hubungi Kami</h3>
+                <ul>
+                    <li>Email: <a href="mailto:emailanda@gmail.com">emailanda@gmail.com</a></li>
+                    <li>WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">0812-3456-7890</a></li>
+                </ul>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
+	
+	<div id="full-image-overlay" class="image-overlay">
+    <span id="overlay-close-btn" class="close-overlay">&times;</span>
+    <img id="full-image" class="full-image" src="" alt="Gambar Diperbesar">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <script src="C:\Users\willy\Downloads\HTML\js/script.js"></script>
 
 </body>
 </html>
-
