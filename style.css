@@ -877,4 +877,13 @@ body.modal-open {
     transform: translateY(0);
     visibility: visible;
 }
+/* style.css */
+.logo img {
+    width: 24px; /* Sesuaikan ukuran ikon */
+    height: 24px; /* Sesuaikan ukuran ikon */
+    vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
+    margin-right: 5px; /* Memberikan sedikit jarak antara ikon dan teks */
+}
+
+
 }
