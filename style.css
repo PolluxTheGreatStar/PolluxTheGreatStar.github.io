@@ -883,6 +883,7 @@ body.modal-open {
     height: 24px; /* Sesuaikan ukuran ikon */
     vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
     margin-right: 5px; /* Memberikan sedikit jarak antara ikon dan teks */
+	transform: scale(0.1)
 }
 
 
