@@ -97,11 +97,24 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
+.logo {
+	display: flex;
+  	align-items: center;
+}
 
 .logo a {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--secondary-color);
+}
+
+/* style.css */
+.logo img {
+    width: 100%; /* Sesuaikan ukuran ikon */
+    height: 100%; /* Sesuaikan ukuran ikon */
+    vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
+    margin-right: 10px; /* Memberikan sedikit jarak antara ikon dan teks */
+	transform: scale(0.1)
 }
 
 .nav ul {
@@ -877,14 +890,7 @@ body.modal-open {
     transform: translateY(0);
     visibility: visible;
 }
-/* style.css */
-.logo img {
-    width: 100%; /* Sesuaikan ukuran ikon */
-    height: 100%; /* Sesuaikan ukuran ikon */
-    vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
-    margin-right: 60px; /* Memberikan sedikit jarak antara ikon dan teks */
-	transform: scale(0.1)
-}
+
 
 
 }
