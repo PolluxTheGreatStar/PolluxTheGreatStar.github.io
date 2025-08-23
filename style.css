@@ -879,10 +879,10 @@ body.modal-open {
 }
 /* style.css */
 .logo img {
-    width: 24px; /* Sesuaikan ukuran ikon */
-    height: 24px; /* Sesuaikan ukuran ikon */
+    width: 100%; /* Sesuaikan ukuran ikon */
+    height: 100%; /* Sesuaikan ukuran ikon */
     vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
-    margin-right: 10px; /* Memberikan sedikit jarak antara ikon dan teks */
+    margin-right: 30px; /* Memberikan sedikit jarak antara ikon dan teks */
 	transform: scale(0.1)
 }
 
