@@ -189,6 +189,12 @@ a:hover {
     opacity: 0;
 }
 
+@media (max-width: 768px) {
+    .hero-image {
+        display: none;
+    }
+}
+
 .hero-image img {
     max-width: 300px;
     border-radius: var(--border-radius);
