@@ -104,13 +104,6 @@ a:hover {
     color: var(--secondary-color);
 }
 
-.logo img {
-    width: 100%; /* Sesuaikan ukuran ikon */
-    height: 100%; /* Sesuaikan ukuran ikon */
-    vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
-    margin-right: 10px; /* Memberikan sedikit jarak antara ikon dan teks */
-	transform: scale(0.1)
-}
 
 .nav ul {
     list-style: none;
@@ -884,6 +877,13 @@ body.modal-open {
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
+}
+.logo img {
+    width: 100%; /* Sesuaikan ukuran ikon */
+    height: 100%; /* Sesuaikan ukuran ikon */
+    vertical-align: middle; /* Membuat ikon sejajar vertikal dengan teks */
+    margin-right: 10px; /* Memberikan sedikit jarak antara ikon dan teks */
+	transform: scale(0.1)
 }
 
 
