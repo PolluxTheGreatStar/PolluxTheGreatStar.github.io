@@ -869,16 +869,12 @@ body.modal-open {
         margin-bottom: 40px;
     }
 
-    .hero-image img {
-        max-width: 300px;
-    }
-
     .hero-title h2 {
-        font-size: 2px;
+        font-size: 1.0rem;
     }
 
     .hero-subtitle p {
-        font-size: 3px;
+        font-size: 0.2rem;
     }
     
 	
