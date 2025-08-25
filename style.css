@@ -873,11 +873,11 @@ body.modal-open {
         max-width: 300px;
     }
 
-    .hero-title {
+    .hero-title h2 {
         font-size: 1.5rem;
     }
 
-    .hero-subtitle {
+    .hero-subtitle p {
         font-size: 0.5rem;
     }
     
