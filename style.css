@@ -899,16 +899,14 @@ body.modal-open {
         display: none;
     }
 	.hero-title {
-    font-size: 3.2rem;
-    font-weight: 700;
+    font-size: 2.2rem;
     margin-bottom: 15px;
     color: var(--secondary-color);
 }
 
 .hero-subtitle {
-    font-size: 0.5rem;
+    font-size: 0.2rem;
     margin-bottom: 20px;
-    color: #555;
 }
 }
 
