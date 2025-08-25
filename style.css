@@ -477,11 +477,11 @@ a:hover {
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 0.5rem;
     }
 
     /* Responsif untuk Halaman Tentang */
@@ -897,14 +897,7 @@ body.modal-open {
         display: none;
     }
 	.hero-title {
-    font-size: 2.2rem;
-    margin-bottom: 15px;
+  
 }
-
-.hero-subtitle {
-    font-size: 0.2rem;
-    margin-bottom: 20px;
-}
-
 
 }
