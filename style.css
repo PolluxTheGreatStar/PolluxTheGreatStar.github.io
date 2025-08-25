@@ -448,42 +448,7 @@ a:hover {
 .about-text {
     animation-delay: 0.5s;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header .container {
-        flex-direction: column;
-    }
-
-    .nav ul {
-        margin-top: 15px;
-    }
-
-    .nav li {
-        margin: 0 10px;
-    }
-
-    .hero .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-content {
-        margin-bottom: 40px;
-    }
-
-    .hero-image img {
-        max-width: 300px;
-    }
-
-    .hero-title {
-        font-size: 1.5rem;
-    }
-
-    .hero-subtitle {
-        font-size: 0.5rem;
-    }
-
+ 
     /* Responsif untuk Halaman Tentang */
     .about-content {
         flex-direction: column;
@@ -881,9 +846,43 @@ body.modal-open {
     visibility: visible;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
-        .full-width-image-container {
+       .header .container {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        margin-top: 15px;
+    }
+
+    .nav li {
+        margin: 0 10px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        margin-bottom: 40px;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.5rem;
+    }
+    
+	
+	.full-width-image-container {
         /* Untuk desktop, tampilkan 3 gambar berderet */
         overflow-x: hidden;
         justify-content: center;
