@@ -871,10 +871,13 @@ body.modal-open {
 
     .hero-title h2 {
         font-size: 2.0rem;
+		    font-weight: 500;
+    	margin-bottom: 10px;
     }
 
     .hero-subtitle p {
         font-size: 0.9rem;
+		margin-bottom: 15px;
     }
     
 	
